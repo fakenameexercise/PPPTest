@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
     public TextView textview01;
     private RadioButton radioButton;
     private Spinner spinner;
-    private TextView textView02;
+    private TextView textview03;
 
 
     @Override
