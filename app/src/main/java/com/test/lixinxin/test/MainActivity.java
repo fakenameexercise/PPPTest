@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textview01=(TextView)findViewById(R.id.textviewone);
-        radioButton=(RadioButton)findViewById(R.id.radio);
+        radioButton=(RadioButton)findViewById(R.id.radioButton);
         textview01.setText("successful");
         textview01.setTextColor(getResources().getColor(R.color.blue));
         radioButton.setSelected(true);
