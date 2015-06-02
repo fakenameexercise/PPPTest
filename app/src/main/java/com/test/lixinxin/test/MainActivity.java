@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textview01=(TextView)findViewById(R.id.textviewone);
         textview01.setText("successful");
+        textview01.setTextColor(getResources().getColor(R.color.blue));
     }
 
     @Override
