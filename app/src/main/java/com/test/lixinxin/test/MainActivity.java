@@ -10,7 +10,10 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private TextView textview01;
+<<<<<<< HEAD
     private RadioButton radioButton;
+=======
+>>>>>>> ad9bb069a0d33b30bf6da5127326d119e23bb70c
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

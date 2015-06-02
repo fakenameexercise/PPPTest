@@ -22,8 +22,11 @@
         android:gravity="center_vertical"
         android:paddingRight="@dimen/abc_action_bar_stacked_max_height" />
 
+<<<<<<< HEAD
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 
+=======
+>>>>>>> ad9bb069a0d33b30bf6da5127326d119e23bb70c
 </RelativeLayout>
