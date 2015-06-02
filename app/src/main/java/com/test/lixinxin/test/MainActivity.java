@@ -12,7 +12,7 @@ public class MainActivity extends Activity {
 
     public TextView textview02;
     private RadioButton radioButton;
-    private Spinner spinner09;
+    private Spinner spinner10;
 
 
     @Override
@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         textview02 = (TextView) findViewById(R.id.textviewone);
         radioButton = (RadioButton) findViewById(R.id.radioButton);
-        spinner09 = (Spinner) findViewById(R.id.spinner);
+        spinner10 = (Spinner) findViewById(R.id.spinner);
         textview02.setText("successful");
         textview02.setTextColor(getResources().getColor(R.color.blue));
         radioButton.setSelected(true);
