@@ -10,4 +10,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/textviewone" />
 
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select"
+        android:id="@+id/radioButton"
+        android:layout_below="@+id/textviewone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
 </RelativeLayout>
