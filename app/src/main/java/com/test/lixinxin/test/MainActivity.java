@@ -10,21 +10,20 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-    public TextView textview01;
+    public TextView textview02;
     private RadioButton radioButton;
     private Spinner spinner;
-    private TextView textview03;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textview01=(TextView)findViewById(R.id.textviewone);
-        radioButton=(RadioButton)findViewById(R.id.radioButton);
-        spinner=(Spinner)findViewById(R.id.spinner);
-        textview01.setText("successful");
-        textview01.setTextColor(getResources().getColor(R.color.blue));
+        textview02 = (TextView) findViewById(R.id.textviewone);
+        radioButton = (RadioButton) findViewById(R.id.radioButton);
+        spinner = (Spinner) findViewById(R.id.spinner);
+        textview02.setText("successful");
+        textview02.setTextColor(getResources().getColor(R.color.blue));
         radioButton.setSelected(true);
     }
 
