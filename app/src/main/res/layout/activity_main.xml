@@ -3,11 +3,27 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:id="@+id/mytest_relativelayout_one">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
     <TextView android:text="@string/study_string" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textviewone" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mix"
+        android:id="@+id/radioButton"
+        android:layout_below="@+id/textviewone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="true"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingRight="@dimen/abc_action_bar_stacked_max_height" />
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 
 </RelativeLayout>

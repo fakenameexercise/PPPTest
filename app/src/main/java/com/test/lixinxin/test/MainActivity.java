@@ -4,17 +4,22 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public TextView textview01;
+    private TextView textview01;
+    private RadioButton radioButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textview01=(TextView)findViewById(R.id.textviewone);
+        radioButton=(RadioButton)findViewById(R.id.radio);
         textview01.setText("successful");
+        textview01.setTextColor(getResources().getColor(R.color.blue));
     }
 
     @Override
