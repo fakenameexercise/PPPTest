@@ -22,9 +22,18 @@
         android:gravity="center_vertical"
         android:paddingRight="@dimen/abc_action_bar_stacked_max_height" />
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 60ec2312a9ddbf9fe0cbbbd67ceea2604dab5a2a
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ad9bb069a0d33b30bf6da5127326d119e23bb70c
+>>>>>>> 60ec2312a9ddbf9fe0cbbbd67ceea2604dab5a2a
 </RelativeLayout>
