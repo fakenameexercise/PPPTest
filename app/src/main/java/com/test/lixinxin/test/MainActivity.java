@@ -5,12 +5,14 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.RadioButton;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
     public TextView textview01;
     private RadioButton radioButton;
+    private Spinner spinner;
 
 
     @Override
@@ -19,6 +21,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         textview01=(TextView)findViewById(R.id.textviewone);
         radioButton=(RadioButton)findViewById(R.id.radioButton);
+        spinner=(Spinner)findViewById(R.id.spinner);
         textview01.setText("successful");
         textview01.setTextColor(getResources().getColor(R.color.blue));
         radioButton.setSelected(true);
